@@ -1,6 +1,4 @@
 # Food Delivery & Payment Integration System
-### 2nd Laboratory Activity — Structural Design Patterns
-
 ---
 
 ## Overview
