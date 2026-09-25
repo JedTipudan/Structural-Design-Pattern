@@ -47,12 +47,14 @@ src/
 javac -d out src/payment/*.java src/food/*.java src/decorator/*.java src/order/*.java src/Main.java
 ```
 
-**Run:**
-```bash
+**Run (PowerShell):**
+```powershell
+$OutputEncoding = [System.Text.Encoding]::UTF8
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 java -cp out Main
 ```
 
-> If the ₱ sign shows as `?`, run `chcp 65001` in your terminal before running the program.
+> These three lines must be run together in PowerShell so the ₱ peso sign displays correctly instead of `?` or `Γé▒`.
 
 ---
 
